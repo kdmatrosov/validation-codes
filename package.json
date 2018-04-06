@@ -1,0 +1,22 @@
+{
+  "name": "validation-codes",
+  "version": "1.0.0",
+  "description": "check INN, SNILS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kdmatrosov@github.com/kdmatrosov/validation-codes.git"
+  },
+  "keywords": [
+    "inn"
+  ],
+  "author": "Kirill Matrosov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdmatrosov/validation-codes/issues"
+  },
+  "homepage": "https://github.com/kdmatrosov/validation-codes#readme"
+}
