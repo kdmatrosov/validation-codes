@@ -1,6 +1,6 @@
 {
   "name": "ru-validation-codes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "check INN, SNILS",
   "main": "index.js",
   "scripts": {
