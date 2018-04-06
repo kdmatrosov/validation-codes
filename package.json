@@ -1,6 +1,6 @@
 {
-  "name": "validation-codes",
-  "version": "1.0.0",
+  "name": "ru-validation-codes",
+  "version": "1.0.1",
   "description": "check INN, SNILS",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://kdmatrosov@github.com/kdmatrosov/validation-codes.git"
   },
   "keywords": [
-    "inn"
+    "inn, ИНН, snils, СНИЛС"
   ],
   "author": "Kirill Matrosov",
   "license": "ISC",
