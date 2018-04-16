@@ -4,9 +4,9 @@ module.exports = function (value) {
     return false;
   }
   value = value.replace(/\D/g, '');
-  const checkSum = parseInt(value.slice(9), 10);
+  var checkSum = parseInt(value.slice(9), 10);
   value = value.substring(0, 9).split('');
-  const sum = value.reduce((acc, next, index) => {
+  var sum = value.reduce(function (acc, next, index) {
     return acc + next * (9 - index);
   }, 0);
   return (sum < 100 && sum === checkSum)

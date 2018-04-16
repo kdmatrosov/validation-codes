@@ -1,5 +1,5 @@
 'use strict';
-const checkINN = require('./functions/checkINN');
-const checkSnils = require('./functions/checkSnils');
+var checkINN = require('./functions/checkINN');
+var checkSnils = require('./functions/checkSnils');
 
-module.exports = {checkINN, checkSnils};
+module.exports = {checkINN: checkINN, checkSnils: checkSnils};
