@@ -1,10 +1,10 @@
 'use strict';
 module.exports = function (value) {
+  //преобразуем в строку
+  value = "" + value;
   if (!(/^\d{10}$/.test(value)) && !(/^\d{12}$/.test(value))) {
     return false;
   }
-  //преобразуем в строку
-  value = "" + value;
   //преобразуем в массив
   value = value.split('');
   //для ИНН в 10 знаков

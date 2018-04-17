@@ -1,7 +1,7 @@
 {
   "name": "ru-validation-codes",
-  "version": "2.3.1",
-  "description": "check INN, SNILS",
+  "version": "2.4.1",
+  "description": "Проверка ИНН/СНИЛС/ОГРН на Javascript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +15,8 @@
     "ИНН",
     "snils",
     "СНИЛС",
+    "ogrn",
+    "ОГРН",
     "javascript"
   ],
   "author": "Kirill Matrosov",
