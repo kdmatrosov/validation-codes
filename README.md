@@ -1,4 +1,8 @@
 # validation-codes
+[![npm version](https://img.shields.io/npm/v/ru-validation-codes.svg)](https://www.npmjs.com/package/ru-validation-codes)
+[![downloads](https://img.shields.io/npm/dt/ru-validation-codes.svg)](https://www.npmjs.com/package/ru-validation-codes)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/kdmatrosov/validation-codes/blob/master/LICENSE)
+
 Проверка ИНН/СНИЛС/ОГРН/ОГРНИП/БИК
 
 # install
