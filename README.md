@@ -1,5 +1,5 @@
 # validation-codes
-Проверка ИНН/СНИЛС/ОГРН
+Проверка ИНН/СНИЛС/ОГРН/ОГРНИП/БИК
 
 # install
 ```npm i --save ru-validation-codes```
