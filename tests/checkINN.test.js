@@ -40,14 +40,16 @@ var invalidInn = [
   '1111111111'
 ];
 
-validInn.forEach(inn => {
-  test(`${inn} should be correct`, () => {
-    expect(checkINN(inn)).toBe(true);
+describe('Check INN', () => {
+  validInn.forEach(inn => {
+    test(`${inn} should be correct`, () => {
+      expect(checkINN(inn)).toBe(true);
+    });
   });
-});
 
-invalidInn.forEach(inn => {
-  test(`${inn} should be wrong`, () => {
-    expect(checkINN(inn)).toBe(false);
+  invalidInn.forEach(inn => {
+    test(`${inn} should be wrong`, () => {
+      expect(checkINN(inn)).toBe(false);
+    });
   });
 });
