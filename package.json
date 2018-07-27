@@ -7,7 +7,6 @@
     "test": "node scripts/test.js"
   },
   "jest": {
-    "setupFiles": ["<rootDir>/scripts/localStorage.js"],
     "testEnvironment": "node",
     "testMatch": [
       "<rootDir>/tests/**/*.{js,jsx,mjs}"
