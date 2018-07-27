@@ -8,7 +8,7 @@ module.exports = function (value) {
   //преобразуем в массив
   value = value.split('');
   //для ИНН в 10 знаков
-  if ((value.length === 10) && (value[9] === ((2 * value[0] + 4 * value[1] + 10 * value[2] + 3 * value[3] + 5 * value[4] + 9 * value[5] + 4 * value[6] + 6 * value[7] + 8 * value[8]) % 11) % 10)) {
+  if ((value.length === 10) && (+value[9] === ((2 * value[0] + 4 * value[1] + 10 * value[2] + 3 * value[3] + 5 * value[4] + 9 * value[5] + 4 * value[6] + 6 * value[7] + 8 * value[8]) % 11) % 10)) {
     return true;
   }
   //для ИНН в 12 знаков
