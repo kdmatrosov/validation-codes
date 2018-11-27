@@ -1,7 +1,7 @@
 {
   "name": "ru-validation-codes",
-  "version": "2.7.3",
-  "description": "Проверка ИНН/СНИЛС/ОГРН на Javascript",
+  "version": "2.7.4",
+  "description": "Проверка ИНН/СНИЛС/ОГРН/ОГРНИП/БИК на Javascript",
   "main": "index.js",
   "scripts": {
     "test": "node scripts/test.js"
