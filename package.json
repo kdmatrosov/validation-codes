@@ -37,6 +37,6 @@
   },
   "homepage": "https://github.com/kdmatrosov/validation-codes#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^25.1.0"
   }
 }

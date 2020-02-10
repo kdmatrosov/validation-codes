@@ -26,11 +26,24 @@ checkBik(value) - проверка, что это 9 цифровой код [Б�
 # how to use
 
 ```js
-import {checkINN, checkSnils, checkOgrn, checkOgrnip, checkBik} from 'ru-validation-codes';
+import {
+    checkINN, 
+    checkSnils, 
+    checkOgrn, 
+    checkOgrnip, 
+    checkBik, 
+    checkSnilsOnlyChecksum
+} from 'ru-validation-codes';
 console.log(checkINN('617547302703')); //false
 console.log(checkSnils('642-709-548 07')); //true
 console.log(checkOgrn('4057910142110')); //true
 console.log(checkOgrnip('313242342342332')); //false
 console.log(checkBik('044525225')); //true
+
+
+console.log(checkSnilsOnlyChecksum('642-709-548 07')); //true
+console.log(checkSnilsOnlyChecksum('642 709 548 07')); //true
+console.log(checkSnilsOnlyChecksum('64270954807')); //true
+console.log(checkSnilsOnlyChecksum(64270954807)); //true
 
 ```

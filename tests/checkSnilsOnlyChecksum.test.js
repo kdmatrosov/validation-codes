@@ -1,24 +1,23 @@
 
-var checkSnils = require('../functions/checkSnils');
+var checkSnils = require('../functions/checkSnilsOnlyChecksum');
 var validSnils = [
   '586-595-917 80',
-  '611-357-865 80',
-  '151-981-910 82',
-  '384-051-346 70',
-  '358-168-076 09',
-  '134-940-005 39',
+  '58659591780',
+  '586 595 917 80',
+  '134 940 005 39',
   '914-561-751 11',
+  64270954807,
 ];
 
 var invalidSnils = [
   '111-111-111 11',
   '611-ва-865 80',
   '151-324-910 82',
-  '38405134670'
+  64270904807
 ];
 
 
-describe('Check Snils', () => {
+describe('Check SnilsOnlyChecksum', () => {
   validSnils.forEach(snils => {
     test(`${snils} should be correct`, () => {
       expect(checkSnils(snils)).toBe(true);

@@ -1,3 +1,8 @@
+# 2020-02-11 2.8.0
+Добавлены тесты для СНИЛС ([issue](https://github.com/kdmatrosov/validation-codes/issues/1)). 
+
+Добавлена новая функция [checkSnilsOnlyChecksum](./functions/checkSnilsOnlyChecksum.js), которая принимает СНИЛС в любом формате и проверяет исключительно по контрольной сумме без учета маски (в отличии от [checkSnils](./functions/checkSnils.js), где ожидается опеределенный формат *999-999-999 99*)
+
 # 2018-11-27 2.7.3
 Добавлены тесты на ОГРН. Обновлены зависимости
 
