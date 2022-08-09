@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function (value) {
   //преобразуем в строку
-  value = "" + value;
+  value = '' + value;
   if (!(/^\d{10}$/.test(value)) && !(/^\d{12}$/.test(value))) {
     return false;
   }

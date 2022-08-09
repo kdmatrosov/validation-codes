@@ -1,3 +1,6 @@
+# 2022-08-09 2.9.0
+Добавлена поддержка типов. [Спасибо](https://github.com/kdmatrosov/validation-codes/pull/8) [gormonn](https://github.com/gormonn)
+
 # 2021-08-02 2.8.1
 Добавлены тесты для ОГРНИП
 
